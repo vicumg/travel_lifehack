@@ -36,7 +36,7 @@ defined('_JEXEC') or die('Restricted access');
         <?php endforeach;?> 
     </ul>
 
-<?php  include(dirname(__FILE__)."/products.php");?>
+<?php  include(dirname(__FILE__)."/products_lh.php");?>
 </div>
 
 

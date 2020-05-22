@@ -19,7 +19,7 @@ include(dirname(__FILE__)."/load.js.php");
         <?php if ($this->config->display_button_print) print printContent();?>
 		<h1 class="productTitle animatable zoomIn"><?php print $this->product->name?></h1>
 		<!-- LEFT -->
-        <div class="productLeft animatable fadeInLeft">
+   <!--     <div class="productLeft animatable fadeInLeft">
             <div class="productImages">
                 
                 <?php if ($product->label_id){?>
@@ -89,7 +89,7 @@ include(dirname(__FILE__)."/load.js.php");
 							</div>
 						<?php }?>
 		
-		<div class="productPriceBlock">
+	 <div class="productPriceBlock">
 			<?php if ($this->product->product_price == 0){?>
 			<a href="#" id="ProductExactPriceLink">Цену уточняйте у менеджера</a>
 			<?php } else { ?>
@@ -111,13 +111,13 @@ include(dirname(__FILE__)."/load.js.php");
 		<br/>
 		<a href="#" id="buttonOrder">Оформить заявку</a>
 		<br/>
-		<!-- <div class="share42init" style="padding:10px;"></div>-->
+		 <div class="share42init" style="padding:10px;"></div>
 		<script type="text/javascript" src="share42/share42.js"></script>
 	
 		</div>
 		
-		<div class="clear"></div>
-		
+		 <div class="clear"></div>-->
+
 		<div class="animatable fadeInUp">
 			<div class="productTabsContent">
 				<?php print $this->product->description; ?>
